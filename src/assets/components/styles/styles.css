@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.row .span{
+    height: 40px;
+ }
+ .row .col-12{
+     margin-bottom: 40px;
+     z-index: 999;
+ }
+ 
+html{
+    background-color: #09090b;
+   
+  }
+
+  body{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  }
+.animation{
+  margin-bottom: 30px;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.card-body{
+  cursor: pointer;
+}
+
+.content{
+  color: white;
+  min-height: 80vh;
+}
+
+.lessons-nav{
+  margin-left: 2rem;
+}
+
+.highlight {
+  color: gold; 
+  font-weight: bold; 
+}
+
+.youtube-wrap{
+  border: 2px solid gray;
+  height: 30rem;
+}
+iframe{
+  height: 100%;
+  width: 100%;
+}
+
+.lessons-nav-items{
+  cursor: pointer;
+}
+.lessons-nav-items:hover{
+  color: gold;
+  transition: all 0.2s ease-in;
+}
+
+.sensei{
+ display: flex;
+ justify-content: center;
+ text-align: center;
+ align-items: center;
+ margin-left: 10px;
+}
+
+.teacher{
+  height: 4rem;
+  display: flex;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+
+}
+.badge {
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.badge:hover {
+
+  filter: drop-shadow(0 0 0.5rem gold);
+}
+
+.animation:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.animation.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.glow-on-hover {
+  transition: box-shadow 0.3s;
+}
+
+.glow-hover{
+  transition: box-shadow 0.3s;
+}
+
+.glow-hover:hover {
+  box-shadow: 0 0 10px gray;
+}
+.glow-on-hover:hover {
+  box-shadow: 0 0 10px gold;
+}
+
+ .btn{
+    margin-right: 50px
+ }
+
+ .card{
+    padding: 0;
+ }
+ 
+ .navbar-brand {
+     height: auto;
+     transition: transform 0.3s ease; /* Smooth transition */
+ }
+ 
+ .navbar-brand:hover {
+     cursor: pointer;
+     transform: scale(1.1); /* Scale the logo on hover */
+ }
+ 
+ main {
+     background-color: #09090b;
+ }
+
+ .fern{
+  width: 40px;
+  height: 40px;
+ }
+ 
+ .container-sm{
+     background-color: #09090b;
+ }
+ 
+ .end{
+     margin-top: 90px;
+ }
+ 
+ ::-webkit-scrollbar {
+     width: 10px;
+   }
+   
+   ::-webkit-scrollbar-track {
+     background: #09090b;
+   }
+   
+   ::-webkit-scrollbar-thumb {
+     background: #353f42;
+   }
+   
+   ::-webkit-scrollbar-thumb:hover {
+     background: #555;
+   }
+
+   .lesson-contents{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: start;
+   }
+
+   .lesson-title{
+    text-align: center;
+    margin: 40px;
+    font-family: "Roboto", sans-serif;
+   }
