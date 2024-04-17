@@ -1,8 +1,6 @@
-# React + Vite
+# E-Learning-Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Currently, under development!
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![elearning](https://github.com/YuriKun11/E-Learning_Platform/assets/109398894/64d5eb0d-1f74-4add-8050-37b18f0eaab6)
+![image](https://github.com/YuriKun11/E-Learning_Platform/assets/109398894/9b654b5b-f607-4455-8c60-0ac5bba50284)
